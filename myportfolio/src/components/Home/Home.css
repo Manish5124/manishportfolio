@@ -1,0 +1,118 @@
+.navbar{
+    height: 10vh;
+    width: 100%;
+    font-size: 20px;
+    background-color: black;
+    list-style-type: none;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    margin-left: 12px;
+}
+
+.navItem{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    top:50%;
+     margin-right: 2%;
+}
+
+.navItem> li{
+    padding: 1vh;
+    color:#aaaaaa;
+    letter-spacing: 0.06em;
+}
+/* https://codepen.io/adamriguez/pen/JjPwdre */
+.navItem> li:hover{
+    color: aliceblue;
+    /* text-decoration: underline;  */
+    /* text-decoration-color: #50ef1b;
+    -moz-text-decoration-color: #50ef1b;
+    text-decoration-thickness: 5px; */
+}
+
+.homeContent{
+    height: 90vh;
+    display: flex;
+    background-color: black;
+ 
+    /* justify-content: center; */
+    /* background-image: url(https://cdn.pixabay.com/photo/2019/04/06/05/17/wallpaper-4106667_1280.jpg); */
+}
+
+.container{
+    color: #fff;
+    position: absolute;
+    top:40%;
+    margin-left: 4%;
+}
+/* .left{
+    width: 50%;
+    height: 100%;
+    background-color: black;
+} */
+
+/* .Right{
+    width: 50%;
+    height: 100%;
+    background-color: blue;
+} */
+
+.user{
+    line-height: 1;
+    display: inline-block;
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 900;
+    font-family: sans-serif;
+}
+
+.social-links{
+    color: #fff;
+    width: 40%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.social-links>a{
+    /* color: #fff;
+    font-size: 30px;
+    text-decoration: none; */
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    font-size: 18px;
+    line-height: 30px;
+    width: 30px;
+    height: 30px;
+    border-radius: 36px;
+    background-color: #222222;
+    color: #fff;
+    margin: 0 3px 3px 0;
+}
+
+
+.social-links>a:hover {
+    text-decoration: none;
+    background-color: #50ef1b;
+  }
+
+ .Right{
+    justify-content: end;
+    text-align: end;
+ } 
+
+ .Right>img{
+    height: 300px;
+    margin-left: 155%;
+    margin-top: 20%;
+    transform: scaleX(-1);
+ }
