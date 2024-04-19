@@ -14,26 +14,41 @@ ul {
     margin-left: 12px;
 }
 
+
+
 .navItem{
     display: flex;
     justify-content: space-between;
     text-align: center;
     top:50%;
-     margin-right: 2%;
+     margin-right: 3%;
+     
+}
+.navItem > li {
+    padding: 1vh;
+    color: #aaaaaa;
+    letter-spacing: 0.06em;
+    position: relative; /* Add this line */
 }
 
-.navItem> li{
-    padding: 1vh;
-    color:#aaaaaa;
-    letter-spacing: 0.06em;
+.navItem>li:hover{
+    color:#fff;
 }
-/* https://codepen.io/adamriguez/pen/JjPwdre */
-.navItem> li:hover{
-    color: aliceblue;
-    /* text-decoration: underline;  */
-    /* text-decoration-color: #50ef1b;
-    -moz-text-decoration-color: #50ef1b;
-    text-decoration-thickness: 5px; */
+
+.navItem > li:after {
+    content: "";
+    display: block;
+    height: 2px;
+    position: absolute;
+    bottom: -3px; /* Adjust this value based on your preference */
+    left: 0;
+    background: #50ef1b;
+    width: 0;
+    transition: width 0.3s ease;
+}
+
+.navItem > li:hover:after {
+    width: 100%;
 }
 
 .homeContent{
@@ -112,7 +127,8 @@ ul {
 
  .Right>img{
     height: 300px;
-    margin-left: 155%;
-    margin-top: 20%;
-    transform: scaleX(-1);
+    margin-left: 450%;
+    margin-top: 65%;
+    /* transform: scaleX(-1); */
  }
+

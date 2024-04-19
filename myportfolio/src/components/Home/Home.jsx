@@ -29,7 +29,7 @@ function Home() {
         </div>
        
         <div className='Right'>
-           <img src="https://cdn.pixabay.com/photo/2019/04/06/05/17/wallpaper-4106667_1280.jpg" alt="lion image" />
+           <img src="../../m1.jpg" alt="lion image" />
         </div>
       </div>
     </div>
