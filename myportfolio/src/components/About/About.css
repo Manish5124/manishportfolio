@@ -1,0 +1,27 @@
+.about{
+    width: 60%;
+    margin: 0 auto; /* Center align */
+}
+
+
+.text-secondary{
+    color: #2c2c2c !important;
+}
+.story-content {
+    padding: 2.7rem 0;
+}
+
+
+.data{
+    line-height: 1.8;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.button{
+    text-align: center;
+}
+
+.button>button{
+    background-color: #50ef1b;
+}
