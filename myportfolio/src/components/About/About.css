@@ -2,20 +2,29 @@
     width: 60%;
     margin: 0 auto; /* Center align */
 }
-
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
 
 .text-secondary{
     color: #2c2c2c !important;
 }
 .story-content {
-    padding: 2.7rem 0;
+    padding: 1.7rem 0;
 }
 
 
 .data{
     line-height: 1.8;
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 500;
+    font-family: 'Circularstd book', sans-serif;
+
 }
 
 .button{
@@ -23,5 +32,5 @@
 }
 
 .button>button{
-    background-color: #50ef1b;
+    background: var(--theme-color);
 }

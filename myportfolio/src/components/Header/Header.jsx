@@ -27,7 +27,7 @@ function Header() {
            </li>
           {/*inside Resume we have to give download option of resume*/}
           <li>
-            <Link to="contant">
+            <Link to="contact">
             Contact
             </Link>
             </li>

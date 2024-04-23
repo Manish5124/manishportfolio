@@ -53,7 +53,7 @@ ul {
     display: inline-block;
     width: 50px; 
     height: 2px;
-    background-color:  #50ef1b; 
+    background-color:  var(--theme-color);
     margin-left: 5px; 
     vertical-align: middle;
   }
@@ -86,7 +86,7 @@ ul {
 
 .social-links>a:hover {
     text-decoration: none;
-    background-color: #50ef1b;
+    background-color:  var(--theme-color);
   }
 
 
@@ -102,7 +102,7 @@ ul {
  .Right:before{
     content: "";
     /* background: rgba(255, 255, 255, 0.7); */
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.55);
     position: absolute;
     bottom: 0;
     top: 0;

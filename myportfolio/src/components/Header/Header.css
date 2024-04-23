@@ -14,7 +14,9 @@
     color:white
 }
 
-
+.title:hover{
+   color: var(--theme-color);
+}
 .navItem{
     display: flex;
     justify-content: space-between;
@@ -51,7 +53,7 @@ ul {
     position: absolute;
     bottom: -3px; /* Adjust this value based on your preference */
     left: 0;
-    background: #50ef1b;
+    background: var(--theme-color);
     width: 0;
     transition: width 0.3s ease;
 }

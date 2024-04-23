@@ -86,7 +86,8 @@ function Resume() {
               <ul>
                 <li>
                   Acquired proficiency in Java, HTML, CSS, JavaScript, Spring
-                  Boot, MySQL, Angular, React, MongoDB and Bootstrap through
+                  Boot, MySQL, Angular, React, MongoDB and 
+                  Bootstrap through
                   hands-on experience.
                 </li>
               </ul>
@@ -95,32 +96,120 @@ function Resume() {
         </div>
       </section>
 
-      <section className="skills">
-          <h1>skills </h1>
-          <div className="row">
-								<div className="col-12">	
-									<main role="main" className="tags-main">
-									<span className="tag tag-react tag-lg">
-                      <img src="../../icons/icons8-react-50.png" className="skill_icon lazyload" alt="React" srcset="" />ReactJS
-										</span>
-										<span className="tag tag-node tag-lg">
-											<img src="../../icons/icons8-nodejs-100.svg" className="skill_icon lazyload" alt="Nodejs"/>NodeJS
-                		</span>	
-                    	<span className="tag tag-lg" >
-											<img src="../../icons/docker.png" className="skill_icon lazyload" alt="React" />Docker
-										</span>		
-                    <span className="tag tag-vue tag-lg">
-											<img src="../../icons/icons8-mongodb-100.svg" className="skill_icon lazyload" alt="MongoDb" />MongoDB
-										</span>		
-                    <span className="tag tag-angular tag-lg">
-											<img src="../../icons/icons8-angularjs-100.svg"  className="skill_icon lazyload" alt="Angular" />Angular
-										</span>	
-                    <span className="tag tag-lg" >
-											<img src="../../icons/jenkins.png" className="skill_icon lazyload" alt="React" />Jenkins
-										</span>
-								</main>
-              </div>  
-							</div>
+      <section className="skills1 mt-5">
+        <h1>skills </h1>
+        <div className="row">
+          <div className="col-12">
+            <main role="main" className="tags-main">
+              <span className="tag tag-react tag-lg">
+                <img
+                  src="../../icons/icons8-react-50.png"
+                  className="skill_icon lazyload"
+                  alt="React"
+                  srcset=""
+                />
+                ReactJS
+              </span>
+              <span className="tag tag-node tag-lg">
+                <img
+                  src="../../icons/icons8-nodejs-100.svg"
+                  className="skill_icon lazyload"
+                  alt="Nodejs"
+                />
+                NodeJS
+              </span>
+              <span className="tag tag-lg">
+                <img
+                  src="../../icons/docker.png"
+                  className="skill_icon lazyload"
+                  alt="React"
+                />
+                Docker
+              </span>
+              <span className="tag tag-vue tag-lg">
+                <img
+                  src="../../icons/icons8-mongodb-100.svg"
+                  className="skill_icon lazyload"
+                  alt="MongoDb"
+                />
+                MongoDB
+              </span>
+              <span className="tag tag-angular tag-lg">
+                <img
+                  src="../../icons/icons8-angularjs-100.svg"
+                  className="skill_icon lazyload"
+                  alt="Angular"
+                />
+                Angular
+              </span>
+              <span className="tag tag-lg tag-jenkins">
+                <img
+                  src="../../icons/jenkins.png"
+                  className="skill_icon lazyload"
+                  alt="React"
+                />
+                Jenkins
+              </span>
+              <span className="tag tag-lg tag-spring">
+                <img
+                  src="../../icons/icons8-spring-boot-48.png"
+                  className="skill_icon lazyload"
+                  alt="SpringBoot"
+                />
+                SpringBoot
+              </span>
+              <span className="tag tag-lg tag-java">
+                <img
+                  src="../../icons/icons8-java-logo-48.png"
+                  className="skill_icon lazyload"
+                  alt="Java"
+                />
+                Java
+              </span>
+              <span className="tag tag-lg ">
+                <img
+                  src="../../icons/icons8-html-logo-48.png"
+                  className="skill_icon lazyload"
+                  alt="Html"
+                />
+                Html
+              </span>
+              <span className="tag tag-lg ">
+                <img
+                  src="../../icons/icons8-css-logo-48.png"
+                  className="skill_icon lazyload"
+                  alt="Html"
+                />
+                CSS
+              </span>
+
+              <span className="tag tag-lg ">
+                <img
+                  src="../../icons/icons8-javascript-48.png"
+                  className="skill_icon lazyload"
+                  alt="js"
+                />
+                Javascript
+              </span>
+              <span className="tag tag-aws tag-lg">
+                <img
+                  src="../../icons/aws.png"
+                  className="skill_icon lazyload"
+                  alt="AWS"
+                />
+                AWS
+              </span>
+              <span className="tag tag-lg">
+                <img
+                  src="../../icons/icons8-mysql-logo-48.png"
+                  className="skill_icon lazyload"
+                  alt="React"
+                />
+                Mysql
+              </span>
+            </main>
+          </div>
+        </div>
       </section>
     </div>
   );

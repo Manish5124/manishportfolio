@@ -1,5 +1,5 @@
 :root {
-    --theme-color:  #5547a4; 
+    --theme-color: #19bad0;
     --theme-text: #ffffff;
     --theme-text2: #fffff0;
     --theme-black: #000000;
@@ -115,7 +115,9 @@ section h2:after {
     text-align: center;
 }
 
-
+.skills1{
+  margin-bottom: 120px;
+}
 
 
 .name_container {
@@ -257,6 +259,9 @@ i:hover {
     cursor: pointer;
     z-index: 10000;
 }
+.tags-main{
+  margin-bottom: 120px;
+}
 
 .tag {
     display: inline-block;
@@ -280,7 +285,7 @@ i:hover {
     font-weight: 400;
   }
   .tag-lg {
-    font-size: 1em;
+    font-size: 1.5em;
     border-radius: 999999px;
   }
   .tag-bg {
@@ -339,6 +344,9 @@ i:hover {
     background: #33a668;
     color: #f8d845;
   }
+  .tag-spring{
+    color: #2ed352;
+  }
   .tag-android {
     background: #a4c34a;
     color: #fff;
@@ -358,6 +366,18 @@ i:hover {
   .tag-svelte {
     color: #fff;
     background: #ff3e00;
+  }
+
+  .tag-aws{
+    background-color: #232f3e;
+    color: white;
+  }
+  .tag-jenkins{
+    color: red;
+  }
+  .tag-java{
+    color: #00d8ff;
+    background: #312723;
   }
   .tag-react {
     color: #00d8ff;
