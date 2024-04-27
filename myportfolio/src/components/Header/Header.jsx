@@ -1,6 +1,6 @@
 import React from "react";
 import './Header.css';
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 function Header() {
   return (
@@ -8,30 +8,32 @@ function Header() {
         <div className="title"> 
           <h2>Manish chouhan</h2>
         </div>
-        <div><ul className="navItem">
+        <nav>
+        <div><ul className="navItem">     
           <li>
-            <Link to="/">
+            <NavLink to="/" >
             Home
-            </Link>
+            </NavLink>
             </li>
           <li>
-            <Link to="/about">
+            <NavLink to="/about" >
             About
-            </Link>
+            </NavLink>
             </li>
           {/* inside about me skills and interest */}
           <li>
-            <Link to="resume">
+            <NavLink to="resume" >
                Resume
-            </Link>
+            </NavLink>
            </li>
           {/*inside Resume we have to give download option of resume*/}
           <li>
-            <Link to="contact">
+            <NavLink to="contact" >
             Contact
-            </Link>
+            </NavLink>
             </li>
         </ul></div>
+        </nav>
       </div>
   );
 }

@@ -115,14 +115,10 @@ section h2:after {
     text-align: center;
 }
 
-.skills1{
-  margin-bottom: 120px;
-}
-
 
 .name_container {
     text-align: right;
-    padding-right: 60px;
+    /* padding-right: 60px; */
 }
 .name_container h1 {
     font-size: 70px;
@@ -167,6 +163,15 @@ i:hover {
     box-shadow: 5px 0 50px var(--theme-color);
     transform: scale(1.1);
     cursor: pointer;
+}
+  .row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1* var(--bs-gutter-y));
+    margin-right: 0 !important;
+    margin-left: calc(-.5* var(--bs-gutter-x));
 }
 
 .nav-link {

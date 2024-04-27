@@ -5,11 +5,13 @@ import Home from './components/Home/Home';
 import About from './components/About/About';
 import Resume from './components/Resume/Resume';
 import Contact from './components/Contact/Contact';
+import TempMain from './components/TempMain/TempMain';
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter> 
+      {/* <TempMain/> */}
       <Header/>
         <Routes>
           <Route path="/" element={<Home />} />

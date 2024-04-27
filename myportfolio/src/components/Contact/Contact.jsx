@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './Contact.css';
+import emailjs from '@emailjs/browser';
 
 function Contact() {
   // State variables for form fields
@@ -20,6 +21,22 @@ function Contact() {
 
   const sendMail = (event) => {
     event.preventDefault(); 
+
+    // emailjs
+    //   .sendForm('service_lr47arn', 'template_j76wkxx', formData, {
+    //     publicKey: 'YOUR_PUBLIC_KEY',
+    //   })
+    //   .then(
+    //     (res) => {
+    //       console.log('SUCCESS!');
+    //       console.log("res=>",res);
+    //     },
+    //     (error) => {
+    //       console.log('FAILED...', error.text);
+    //     },
+    //   );
+
+
     console.log("Sending email with following details:");
     console.log("Name:", formData.name);
     console.log("email:", formData.email);
@@ -66,7 +83,7 @@ function Contact() {
               </div>
             </div>
             <div className="col-12 col-md-8">
-                <form className="p-2" data-aos-duration="1000" data-aos="fade-up" onSubmit={sendMail}>
+                <form className="p-2" data-aos-duration="1000" data-aos="fade-up"  onSubmit={sendMail}>
                     <div className="row form-group">
                         <div className="col">
                             <input type="text" className="form-control"  name="name"  placeholder="Your Name" value={formData.name} onChange={handleChange} required />
