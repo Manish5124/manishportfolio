@@ -31,6 +31,21 @@ p{
     text-align: center;
 }
 
-.button>button{
+.button>a{
     background: var(--theme-color);
+    color: antiquewhite;
+}
+
+.button>a:hover{
+    background: var(--theme-color);
+    color: antiquewhite;
+}
+.story-content.data > span {
+    display: block;
+    padding-bottom: 20px; /* Adjust as needed */
+  }
+  @media (max-width: 600px) {
+  .story-content.data>.notImp{
+    display: none;
+  }
 }
