@@ -82,7 +82,7 @@ function Contact() {
                 </div>
               </div>
             </div>
-            <div className="col-12 col-md-8">
+            <div className="col-12 col-md-8 details">
                 <form className="p-2" data-aos-duration="1000" data-aos="fade-up"  onSubmit={sendMail}>
                     <div className="row form-group">
                         <div className="col">

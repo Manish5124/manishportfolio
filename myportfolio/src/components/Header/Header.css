@@ -67,3 +67,67 @@ a{
 .active{
     color: var(--theme-color);
 }
+
+
+.menu-toggle {
+    display: none;
+}
+
+
+@media (max-width: 600px) {
+    
+    .header-content {
+      height: 100%;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      text-align: center;
+      padding: 10px;
+      padding-bottom: 0 !important;
+    }
+  
+    .navbar {
+      height: 100%;
+      width: 100%;
+      font-size: 20px;
+      background-color: black;
+      list-style-type: none;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .navItem {
+      display: none;
+      flex-direction: column;
+    }
+  
+    .menu-toggle {
+      display: flex;
+      flex-direction: column;
+      cursor: pointer;
+    }
+  
+    .bar {
+      width: 25px;
+      height: 3px;
+      background-color: #aaaaaa;
+      margin: 3px 0;
+      transition: transform 0.4s ease;
+    }
+  
+    .cross1 {
+      transform: rotate(-45deg) translate(-5px, 6px);
+    }
+  
+    .cross2 {
+      opacity: 0;
+    }
+  
+    .cross3 {
+      transform: rotate(45deg) translate(-5px, -6px);
+    }
+  
+    .show .navItem {
+      display: flex;
+    }
+  }

@@ -33,7 +33,7 @@ function Home() {
         </div>
          <div className='maincontainer'>
           <span><img className="wave" src="../../wave.png" alt="waving hand"/></span>
-         <h1 class="start-animate"> Hi, I'm <span class="section-title">Manish<span className="accent-line accent-primary" ></span></span></h1>
+         <h1 className="start-animate"> Hi, I'm <span className="section-title">Manish<span className="accent-line accent-primary" ></span></span></h1>
          <h2>I'm a passionate <span><b><i>{role}</i></b></span></h2>
          <div className="social-links" >
         <a href="https://twitter.com/" target="_blank" class="twitter"><i class="ri-twitter-x-line"></i></a>

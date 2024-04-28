@@ -115,8 +115,29 @@ ul {
     .Right{
         width:100%;
         height: 100%;
-        background: url("../../../public/m1.jpg") bottom left no-repeat;
+        background: url("../../../public/m1.jpg") bottom right ;
         background-size: cover;
         /* transform: scaleX(1);  */
      }
+
+     .homeContent{
+        height: 93vh;
+        background-color: black;
+     }
+
+     .maincontainer{
+        width: 100%;
+        color: #fff;
+        position: absolute;
+        top:77%;
+        margin-left: 10%;
+    }
+
+    
+.social-links{
+    color: #fff;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
 }

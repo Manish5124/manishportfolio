@@ -24,7 +24,6 @@ p{
     font-size: 20px;
     font-weight: 500;
     font-family: 'Circularstd book', sans-serif;
-
 }
 
 .button{
@@ -44,8 +43,21 @@ p{
     display: block;
     padding-bottom: 20px; /* Adjust as needed */
   }
+
   @media (max-width: 600px) {
   .story-content.data>.notImp{
     display: none;
   }
+  .about{
+    width: 70%;
+    font-family: 'Circularstd book', sans-serif;
+  }
+
+  .data{
+    line-height: 1.8;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Circularstd book', sans-serif;
+     /* background-color: aqua; */
+}
 }
