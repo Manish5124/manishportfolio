@@ -19,7 +19,7 @@ function About() {
         <span>Driven by a relentless pursuit of excellence, I remain steadfast in my commitment to pushing the boundaries of technological innovation, continuously seeking opportunities to refine my craft and elevate the digital landscape. With an unwavering dedication to excellence and a fervent love for coding, I embark on each new project with enthusiasm, eager to leave an indelible mark on the digital frontier. </span>
       </p>
       <div className="button">
-          <a href="../../" target="_blank" className="btn" download="Manish_Resume.pdf">VIEW RESUME</a>
+          <a href="../../" target="_blank" className="btn" download="Manish.pdf">VIEW RESUME</a>
         </div>     
       </section>
     </div>
